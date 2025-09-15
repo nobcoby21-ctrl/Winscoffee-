@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wins Caffe - Menu Digital</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f6f2;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background: #6f4e37;
+      color: white;
+      padding: 20px;
+    }
+    h1 {
+      margin: 0;
+    }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 15px;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .price {
+      color: #6f4e37;
+      font-weight: bold;
+      margin-top: 5px;
+    }
+    button {
+      background: #6f4e37;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      margin-top: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #8b5e3c;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Wins Caffe</h1>
+    <p>Menu Digital - Scan & Order</p>
+  </header>
+
+  <section class="menu">
+    <div class="card">
+      <img src="https://i.ibb.co/4Pwqv7w/coffee1.jpg" alt="Espresso">
+      <h3>Espresso</h3>
+      <p class="price">Rp 18.000</p>
+      <button>Pesan</button>
+    </div>
+    <div class="card">
+      <img src="https://i.ibb.co/JQd5whk/coffee2.jpg" alt="Cappuccino">
+      <h3>Cappuccino</h3>
+      <p class="price">Rp 25.000</p>
+      <button>Pesan</button>
+    </div>
+    <div class="card">
+      <img src="https://i.ibb.co/6R6jC8z/coffee3.jpg" alt="Latte">
+      <h3>Caffè Latte</h3>
+      <p class="price">Rp 23.000</p>
+      <button>Pesan</button>
+    </div>
+    <div class="card">
+      <img src="https://i.ibb.co/gvn1hyP/coffee4.jpg" alt="Mocha">
+      <h3>Caffè Mocha</h3>
+      <p class="price">Rp 27.000</p>
+      <button>Pesan</button>
+    </div>
+  </section>
+</body>
+</html>
